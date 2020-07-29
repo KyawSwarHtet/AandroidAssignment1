@@ -28,7 +28,7 @@
             android:paddingBottom="10dp"
             android:text="Oeschnen Lake Campground"
             android:textSize="20sp"
-            android:paddingRight="50dp"/>
+            android:paddingRight="10dp"/>
 
 
 
@@ -84,6 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Call"
+            android:textColor="@color/blue"
             android:layout_marginLeft="30dp"
             />
         </LinearLayout>
@@ -100,6 +101,7 @@
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/blue"
                 android:text="ROUTE"
                 android:layout_marginLeft="30dp"
                 />
@@ -120,6 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SHARE"
+                android:textColor="@color/blue"
                 android:layout_marginLeft="30dp"
                 />
 
