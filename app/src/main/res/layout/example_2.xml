@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollViewRelativeLayout android:layout_width="match_parent"
+<ScrollView  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -133,4 +137,5 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         />
-</ScrollViewRelativeLayout>
+    </RelativeLayout>
+</ScrollView>
