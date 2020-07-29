@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content">
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@id/btn2"
+    android:text="@string/one"
+    android:background="@color/btn1color"
+    android:layout_marginRight="@dimen/diem_45dp"
+
+
+    />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="two"
+        android:layout_margin="@dimen/diem_45dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/btn1"
+
+
+        />
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/hello_world"
+        android:textSize="40sp"
+        android:textColor="#E91E63"
+        android:layout_below="@id/btn2"
+/>
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="three"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/test1"
+    android:layout_toRightOf="@id/btn1"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/ing"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/btn3"
+        android:contentDescription="@string/cr7"
+        />
+
+</RelativeLayout>

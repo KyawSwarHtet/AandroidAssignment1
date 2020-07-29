@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollViewRelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:src="@drawable/viewsbeach"/>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_below="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:paddingBottom="10dp"
+            android:text="Oeschnen Lake Campground"
+            android:textSize="20sp"
+            android:paddingRight="50dp"/>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_baseline_star_24"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="41"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liner3"
+        android:layout_below="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kandersteg,Switzerland"
+            android:paddingLeft="35dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linear2"
+        android:layout_below="@+id/liner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_call_24"
+            android:paddingLeft="50dp"
+        />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"
+            android:layout_marginLeft="30dp"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_navigation_24"
+                android:paddingLeft="50dp"></ImageView>
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROUTE"
+                android:layout_marginLeft="30dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_baseline_share_24"
+                android:paddingLeft="50dp"></ImageView>
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHARE"
+                android:layout_marginLeft="30dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:paddingTop="10dp"
+
+        android:text="@string/test1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+</ScrollViewRelativeLayout>
